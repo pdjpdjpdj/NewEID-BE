@@ -3,7 +3,7 @@
 ## tldr;
 Step by step details of how to get a new Belgian ID card before April. READ CAREFULLY BEFORE YOU GO!!
 
-- (Dutch version)[nolinkyet:PLANNED]
+- [Nederlandstalige versie](https://github.com/pdjpdjpdj/NewEID-BE/blob/master/nl_eid-BE_handleiding.md)
 - (French version)[nolinkyet:PLANNED]
 - (German version)[nolinkyet:PLANNED]
 
@@ -98,13 +98,13 @@ _INVENTORY += TEMP_ID_
 
 _INVENTORY = 0EUR, ALT_ID, TEMP_ID_
 
-9) Wait until you get a letter notice to go get your new ID card. (Couple days or weeks).
+12) Wait until you get a letter notice to go get your new ID card. (Couple days or weeks).
 _INVENTORY += PUK_PIN_LETTER_
 
 
 _INVENTORY = 0EUR, PUK_PIN_LETTER, ALT_ID, TEMP_ID_
 
-10) Go back with your temporary identification document and get your brand new, fingerprint absent, ID card. Enter your PUK and PIN to activate your brand new card. 
+13) Go back with your temporary identification document and get your brand new, fingerprint absent, ID card. Enter your PUK and PIN to activate your brand new card. 
 _INVENTORY -= TEMP_ID_
 
 _INVENTORY -= PUK_PIN_LETTER_
@@ -113,7 +113,7 @@ _INVENTORY += NEW_ID_
 
 _INVENTORY = 0EUR, ALT_ID, NEW_ID_
 
-11) Congratz, you now have an id card that's valid for 10 years and have 10 years time to fight this absurd privacy violating measure.
+14) Congratz, you now have an id card that's valid for 10 years and have 10 years time to fight this absurd privacy violating measure.
 Please share and inform anyone you know to do the same BEFORE APRIL 2019.
 
 #Irefuse, #Ikweiger, #Jerefuse, #Ichweigere
