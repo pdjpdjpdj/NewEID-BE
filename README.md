@@ -3,6 +3,10 @@
 ## tldr;
 Step by step details of how to get a new Belgian ID card before April. READ CAREFULLY BEFORE YOU GO!!
 
+- (Dutch version)[nolinkyet:PLANNED]
+- (French version)[nolinkyet:PLANNED]
+- (German version)[nolinkyet:PLANNED]
+
 ## Details
 ### Intro
 Prepare your anus for your ID change rape enforced by the Belgian govrnement with their new, insanly disproportional, fingerprint requirement starting from April 2019. You can fight this measure by requesting a new Belgian ID card BEFORE that. As in every captialist nation you usually vote with your wallet. Belgium is no different here, if you have 25EUR to spare you can get yourself a nice, clean new ID without having to give up your precious fingerprints. I'll detail how and what to expect. That's less than 2 months so plan to get your new ID ASAP. I HIGHLY RECOMMEND READING THIS FULL GUIDE CAREFULLY BEFORE GOING.
