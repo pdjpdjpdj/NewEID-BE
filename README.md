@@ -4,8 +4,8 @@
 Step by step details of how to get a new Belgian ID card before April. READ CAREFULLY BEFORE YOU GO!!
 
 - [Nederlandstalige versie](https://github.com/pdjpdjpdj/NewEID-BE/blob/master/nl_eid-BE_handleiding.md)
-- (French version)[nolinkyet:PLANNED]
-- (German version)[nolinkyet:PLANNED]
+- (French version)[nolinkyet:PLANNED but help needed see [issue \#1](https://github.com/pdjpdjpdj/NewEID-BE/issues/1)]
+- (German version)[nolinkyet:PLANNED but help needed see [issue \#2](https://github.com/pdjpdjpdj/NewEID-BE/issues/2)]
 
 ## Details
 ### Intro
