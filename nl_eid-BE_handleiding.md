@@ -36,6 +36,7 @@ _RUGZAK = ALT_ID, 25EUR, DATA(ALT_ID), DATA(TEL_NUM), DATA(HANDTEKENING)_
 3) Ga eerst je mugshot (gezichtsfoto) nemen (want iedereen is tegenwoordig een crimineel toch?) in een fotohokje dat voldoet aan de onderstaande eisen:
 Eisen hier: https://diplomatie.belgium.be/nl/Diensten/Diensten_in_het_buitenland/Belgisch_paspoort/biometrisch_paspoort/belg_in_belgie/kwaliteitseisen_voor_de_foto
 Volg de vereiste instructies voor de foto zorgvuldig op, anders laten ze je een nieuwe mugshot maken!
+
 _RUGZAK -= 5EUR_
 
 _RUGZAK += FOTO, DATA(FOTO)_
@@ -51,6 +52,7 @@ _RUGZAK = ALT_ID, 20EUR, FOTO, DATA(FOTO), DATA(ALT_ID), DATA(TEL_NUM), DATA(HAN
 _RUGZAK = ALT_ID, 20EUR, FOTO, DATA(FOTO), DATA(ALT_ID), DATA(TEL_NUM), DATA(HANDTEKENING)_
 
 6) Als u naar het kantoor wordt geroepen om uw verloren identiteitskaart te behandelen, leg dan uit aan de bureaucraat dat u uw oude identiteitskaart bent kwijtgeraakt. (NOOIT ZEGGEN DAT DIE GESTOLEN IS WANT DAN MOET JE EERST NAAR DE POLITIE.) ***Ze kunnen u een waarschuwing geven dat als u uw Identieitskaart een derde keer verliest, ze een zaak zullen openen bij het parket wegens verdacht gedrag (Ik weet niet of dit juridisch steek houd...) *** Voldoe gewoon aan hun verzoeken en het zal in orde zijn (...hoop ik). Ze vragen mogelijk ook u telefoon nummer (DATA(TEL_NUM)).
+
 _RUGZAK -= DATA(TEL_NUM)_
 
 _STAATS_DATAOPSLAG += DATA(TEL_NUM)_
@@ -62,6 +64,7 @@ _STAATS_ID_VERLIES_TELLER+++_
 _RUGZAK = ALT_ID, 20EUR, FOTO, DATA(FOTO), DATA(ALT_ID), DATA(HANDTEKENING)_
 
 7) Geef de bureaucraat uw alternatieve identificatie (ALT_ID) en mugshot (FOTO).
+
 _RUGZAK -= ALT_ID, DATA(FOTO)_
 
 _RUGZAK -= FOTO, DATA(FOTO)_
@@ -89,6 +92,7 @@ _RUGZAK -= 20EUR_
 _RUGZAK = 0EUR_
 
 11) De bureaucraat (M/X/F) zal uw alternatieve identificatie en een tijdelijk identificatiedocument teruggeven. Verlies dit document niet omdat u het nodig heeft om uw nieuwe identiteitskaart af te halen.
+
 _RUGZAK += ALT_ID_
 
 _RUGZAK += TEMP_ID_
@@ -100,7 +104,8 @@ _RUGZAK += PUK_PIN_BRIEF_
 
 _RUGZAK = 0EUR, ALT_ID, TEMP_ID, PUK_PIN_BRIEF_
 
-13) Ga terug met uw tijdelijk identificatiedocument en krijg uw gloednieuwe, vingerafdrukloze, ID-kaart. Voer de PUK en PIN code in om deze te activeren. 
+13) Ga terug met uw tijdelijk identificatiedocument en krijg uw gloednieuwe, vingerafdrukloze, ID-kaart. Voer de PUK en PIN code in om deze te activeren.
+
 _RUGZAK -= TEMP_ID_
 
 _RUGZAK += NIEUW_ID_
