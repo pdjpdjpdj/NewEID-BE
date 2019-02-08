@@ -28,6 +28,7 @@ _INVENTORY: DATA(PHONE_NUM), DATA(SIGNATURE)_
 0) Hide your old ID card somewhere in your house. I don't know wether it's a strict requirement but they ask your phone number (_DATA(PHONE_NUM)_) in case something goes wrong with the procedure.
 
 1) Take some alternate form of identification (ALT_ID) with you. E.g. a drivers license, passport, ...
+
 _INVENTORY += ALT_ID, DATA(ALT_ID)_
 
 _INVENTORY = ALT_ID, DATA(ALT_ID), DATA(PHONE_NUM), DATA(SIGNATURE)_
@@ -40,7 +41,9 @@ _INVENTORY = 25EUR, ALT_ID, DATA(ALT_ID), DATA(PHONE_NUM), DATA(SIGNATURE)_
 3) First go get your mugshot (facial picture) taken (cause everyone is a criminal nowadays amiright?) in a photoboot that's compatible with the requirements found below.
 Requirements here: https://diplomatie.belgium.be/en/services/services_abroad/belgian_passport/applying_passport/belgian_citizen_belgium/quality
 Follow the requirement instructions for the photo carefully or they will make you take a new mugshot!
+
 _INVENTORY -= 5EUR_
+
 _INVENTORY += PICTURE, DATA(PICTURE)_
 
 _INVENTORY = 20EUR, ALT_ID, PICTURE, DATA(ALT_ID), DATA(PICTURE), DATA(PHONE_NUM), DATA(SIGNATURE)_
@@ -80,6 +83,7 @@ _INVENTORY = 20EUR, DATA(SIGNATURE)_
 _INVENTORY = 20EUR, DATA(SIGNATURE)_
 
 9) The bureaucrat will ask you for your signature. Give it to them.
+
 _INVENTORY -= DATA(SIGNATURE)_
 
 _GOV_DATASTORE += DATA(SIGNATURE)_
@@ -87,11 +91,13 @@ _GOV_DATASTORE += DATA(SIGNATURE)_
 _INVENTORY = 20EUR_
 
 10) Pay the privacy tax of 20EUR.
+
 _INVENTORY -= 20EUR_
 
 _INVENTORY = 0EUR_
 
 11) The bureaucrat (M/X/F) will give back your alternative identification and a temporary identification document. Do not lose this document because you will need it to receive your new ID card.
+
 _INVENTORY += ALT_ID_
 
 _INVENTORY += TEMP_ID_
@@ -99,12 +105,13 @@ _INVENTORY += TEMP_ID_
 _INVENTORY = 0EUR, ALT_ID, TEMP_ID_
 
 12) Wait until you get a letter notice to go get your new ID card. (Couple days or weeks).
-_INVENTORY += PUK_PIN_LETTER_
 
+_INVENTORY += PUK_PIN_LETTER_
 
 _INVENTORY = 0EUR, PUK_PIN_LETTER, ALT_ID, TEMP_ID_
 
 13) Go back with your temporary identification document and get your brand new, fingerprint absent, ID card. Enter your PUK and PIN to activate your brand new card. 
+
 _INVENTORY -= TEMP_ID_
 
 _INVENTORY -= PUK_PIN_LETTER_
